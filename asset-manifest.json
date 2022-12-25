@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.456b1500.css",
+    "main.js": "/static/js/main.ab831cb1.js",
+    "static/media/aboutImg2.png": "/static/media/aboutImg2.89fe2c2536419c029ac6.png",
+    "static/media/cerImg3.png": "/static/media/cerImg3.0f957bda1edea6f38df5.png",
+    "static/media/aboutImg3.png": "/static/media/aboutImg3.9761fa4d5d639dfdab8c.png",
+    "static/media/cerImg2.png": "/static/media/cerImg2.d2acb8b2624a47aac1a9.png",
+    "static/media/cerImg4.png": "/static/media/cerImg4.5d78fe10a397191231aa.png",
+    "static/media/procedur1.jpg": "/static/media/procedur1.28decee886a11ee25449.jpg",
+    "static/media/botocs.jpg": "/static/media/botocs.c0968a2d68f87362536c.jpg",
+    "static/media/procedur2.jpg": "/static/media/procedur2.1525c57af99fcb42ce54.jpg",
+    "static/media/ilchenko.png": "/static/media/ilchenko.cf534288683a8fa288c0.png",
+    "static/media/cerImg1.jpg": "/static/media/cerImg1.d231b7fcc6552370b8d2.jpg",
+    "static/media/dancingFont.ttf": "/static/media/dancingFont.3e7e73f4e34e4945f363.ttf",
+    "static/media/person.jpg": "/static/media/person.d6afadd775507dda2dff.jpg",
+    "static/media/logo.png": "/static/media/logo.6949cc4d0167533ab340.png",
+    "static/media/KeniaR.ttf": "/static/media/KeniaR.2013ccd233e78abb349d.ttf",
+    "static/media/activeMenu.jpg": "/static/media/activeMenu.8228988c54b0526754c4.jpg",
+    "index.html": "/index.html",
+    "main.456b1500.css.map": "/static/css/main.456b1500.css.map",
+    "main.ab831cb1.js.map": "/static/js/main.ab831cb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.456b1500.css",
+    "static/js/main.ab831cb1.js"
+  ]
+}
