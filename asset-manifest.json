@@ -1,25 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d2e7154.css",
-    "main.js": "/static/js/main.6aeaed9e.js",
+    "main.css": "/static/css/main.bf6e58ff.css",
+    "main.js": "/static/js/main.802c6515.js",
     "static/media/ilchenko.png": "/static/media/ilchenko.204e1706db7e767e5b3e.png",
     "static/media/cerImg3.png": "/static/media/cerImg3.0f957bda1edea6f38df5.png",
     "static/media/cerImg2.png": "/static/media/cerImg2.d2acb8b2624a47aac1a9.png",
     "static/media/cerImg4.png": "/static/media/cerImg4.5d78fe10a397191231aa.png",
-    "static/media/procedur1.jpg": "/static/media/procedur1.28decee886a11ee25449.jpg",
     "static/media/cerImg6.jpg": "/static/media/cerImg6.b57ae5d0c59f836116f2.jpg",
     "static/media/person.png": "/static/media/person.ed3f10c0ba082b3c7bff.png",
     "static/media/cerImg1.jpg": "/static/media/cerImg1.d231b7fcc6552370b8d2.jpg",
     "static/media/cerImg5.jpg": "/static/media/cerImg5.a7a6df4fdba3aa073319.jpg",
     "static/media/dancingFont.ttf": "/static/media/dancingFont.3e7e73f4e34e4945f363.ttf",
+    "static/media/reviews12.jpg": "/static/media/reviews12.f05af66717d491571cc6.jpg",
     "static/media/KeniaR.ttf": "/static/media/KeniaR.2013ccd233e78abb349d.ttf",
+    "static/media/reviews9.jpg": "/static/media/reviews9.bd4f2b6e5a840f7eccf6.jpg",
+    "static/media/reviews4.jpg": "/static/media/reviews4.8e54d020f04b561caecd.jpg",
+    "static/media/reviews8.jpg": "/static/media/reviews8.0165304d3b7cc6c0143d.jpg",
+    "static/media/reviews1.jpg": "/static/media/reviews1.74eb27c10377dd0dceea.jpg",
+    "static/media/reviews2.jpg": "/static/media/reviews2.69f59f39fc474780b1ea.jpg",
+    "static/media/reviews11.jpg": "/static/media/reviews11.55dbb739f92e788ed255.jpg",
+    "static/media/reviews3.jpg": "/static/media/reviews3.a49168a06c0e6151ce77.jpg",
+    "static/media/reviews6.jpg": "/static/media/reviews6.70b2c6844a7a6e59a353.jpg",
+    "static/media/reviews14.jpg": "/static/media/reviews14.b2dabd3f8bd4903f1612.jpg",
+    "static/media/reviews13.jpg": "/static/media/reviews13.0a5745e19c442477a87f.jpg",
+    "static/media/reviews10.jpg": "/static/media/reviews10.b10162b617ffdec2e4b4.jpg",
+    "static/media/reviews7.jpg": "/static/media/reviews7.b1c00779e4c743d8ac12.jpg",
+    "static/media/reviews5.jpg": "/static/media/reviews5.62a86f396a7872750403.jpg",
+    "static/media/procedur1.jpg": "/static/media/procedur1.c427ed6aaa19776167a7.jpg",
     "static/media/activeMenu.jpg": "/static/media/activeMenu.8228988c54b0526754c4.jpg",
     "index.html": "/index.html",
-    "main.7d2e7154.css.map": "/static/css/main.7d2e7154.css.map",
-    "main.6aeaed9e.js.map": "/static/js/main.6aeaed9e.js.map"
+    "main.bf6e58ff.css.map": "/static/css/main.bf6e58ff.css.map",
+    "main.802c6515.js.map": "/static/js/main.802c6515.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d2e7154.css",
-    "static/js/main.6aeaed9e.js"
+    "static/css/main.bf6e58ff.css",
+    "static/js/main.802c6515.js"
   ]
 }
