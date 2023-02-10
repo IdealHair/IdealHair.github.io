@@ -1,0 +1,453 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,body {
+  width: 100%;
+  height: 100%;  
+}
+.container {
+  max-width: 968px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding-bottom: 10px;
+}
+header.header {
+  background-repeat: no-repeat;
+  background-position: -130px -40px;
+  padding: 75px 25px 25px 25px;;
+}
+
+.homePage {
+  background: url('../img/homePage/homeTrianglImg1.png')-85px -200px no-repeat,  url('../img/homePage/homeTrianglImg2.png')-133px 451px no-repeat, #EEE6DC;
+  padding-bottom: 100px;
+}
+.homePage, .certificatePage, .aboutPage, .procedurePageContainer, .beforePage, .reviewsPage {
+  position: relative;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+.logo2 {
+  float: right;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.target, .description {
+  font-family: 'Cormorant', serif;
+  font-size: 18px;
+}
+figure.logo figcaption {
+  padding-top: 40px;
+}
+figure.logo figcaption p:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.slogan {
+  min-height: 34px;
+  background-color: #929292;
+  font-family: 'Caveat', cursive;
+  line-height: 2;
+  font-size: 26px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #001;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-repeat: no-repeat;
+  padding-top: 40px;
+
+}
+ul.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+  list-style: none;
+}
+ul.menu li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+ul.menu li:not(:last-child){
+  margin-bottom: 16px;
+}
+.menuLink {
+  display: block;
+  list-style: none;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  border:1px solid rgba(0,0,0,0.5);
+  border-radius: 5px;
+  font-family: 'Cormorant';
+  font-size: 18px;
+  font-weight: 600;
+  transition: background 0.5s 0.5s;
+}
+.menuLink:hover {background:#e7b77b;}
+ul.contact {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+ul.contact a {
+  display: inline-block;
+  transition: transform  1s;
+}
+ul.contact a:hover {
+  transform: scale(1.2);
+}
+ul.contact li:not(:last-child) {margin-right: 35px;}
+.instagram, .telegram, .viber, .phone {
+  font-size: 35px;
+  color: #000;
+}
+
+/* certificatePage style start*/
+
+.certificatePage {
+    background: url(../img/certificates/sertifikatTriangl1.png) -115px -228px no-repeat, url(../img/certificates/sertifikatTriangl2.png) -64px 226px no-repeat #fff;
+    padding:70px 0 100px;
+}
+
+a.title {
+
+  display: block;
+  text-align: center;
+  min-height: 40px;
+  font-family: 'Cormorant', serif;
+  font-weight: 600;
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+
+}
+a.title span:nth-of-type(1) {
+  width: 15px;
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+a.title span:nth-of-type(2) {
+  line-height: 40px;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 40px;
+}
+.gallery figure {
+  display: flex;
+  border-radius:10px;
+  overflow: hidden;
+  box-shadow:3px 3px 4px rgba(0,0,0, 0.5);
+}
+.gallery  figure:not(:last-child){
+  margin-bottom: 20px;
+}
+.gallery  figure a{
+  line-height: 0;  
+}
+.gallery  figure:nth-of-type(1){
+  width: calc(50% - 10px);
+}
+.gallery  figure:nth-of-type(2){
+  width: calc(50% - 10px);
+}
+
+.gallery figure img {
+  max-width: 100%;
+  line-height: 0;
+  height: auto;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.4);
+}
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/*certificatePage style end*/
+/*aboutPage start*/
+.aboutPage {
+  background: url('../img/about/aboutTrianglImg1.png') -141px -204px no-repeat, url('../img/about/aboutTrianglImg2.png') -110px 425px no-repeat, url('../img/about/aboutBG.png') #fff;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.aboutPage figure {
+  position: relative;
+}
+img.aboutLogoImg {
+  position: absolute;
+  top: -10px;
+  right: 25px;
+}
+
+ul.aboutCont {
+  padding-left: 33px;
+  padding-right: 19px;
+  padding-top: 150px;
+}
+
+a.about_title {
+  justify-content: flex-start;
+  background-color: transparent;
+  padding-left: 65px;
+  color: #fff;
+  text-align:left !important;
+}
+
+.aboutList {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: #000000;
+}
+.aboutList:not(:last-child){
+  margin-bottom: 15px;
+}
+/*procedure*/
+.procedurePageContainer {
+  padding-top: 60px;
+  background: url('../img/procedure/procedureTrianglImg1.png') -146px -271px, url('../img/procedure/procedureTrianglImg2.png') -110px 425px;
+  background-repeat: no-repeat;
+  background-color: #B4BCCE;
+  min-height: 100%;
+  padding-bottom: 100px;
+  position: relative;
+
+}
+.title {
+  background-color: #929292;
+  color: #fff;
+}
+.acordionContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 40px;
+}
+.acordionContainer button {
+  padding-top: 15px;
+  padding-bottom: 15px; 
+}
+.acordionContainer button:not(:last-child) {
+  margin-bottom: 10px;
+}
+.accordion {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border:1px solid black;
+  border-radius: 5px;
+  transition: background-color 1s 1s;
+  cursor:pointer;
+}
+.accordion:hover {
+  background-color: #EEE6DC;
+}
+.botoks, .bix, .keratin{
+  border-radius: 10px;
+  box-shadow: 2px 3px 4px rgb(0 0 0);
+}
+/*footer*/
+.footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+/*footer*/
+
+
+.panelList {
+  padding: 10px 15px; 
+  margin-bottom: 10px;
+  background-color: rgba(255,255,255, 0.8);
+  border-radius: 10px;
+}
+.panelList li {
+  font-family: 'Cormorant';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  list-style: none;
+}
+.panelList li:not(:last-of-type){
+  margin-bottom: 10px;
+}
+/*beforePage*/
+.beforePageContainer {
+  padding-top: 60px;
+  position: relative;
+}
+.beforePage {
+    background:url(../img/beforeAfter/beforeAfterTrianglImg1.png)-97px -242px, url(../img/beforeAfter/beforeAfterTrianglImg2.png)-82px 414px; 
+    background-repeat: no-repeat;
+}
+.beforePageContainer > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 90px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.beforePageContainer > section > figure {
+  padding-bottom: 15px;
+}
+/*reviewsPage*/
+
+.reviewsPage {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background: url(../img/reviews/reviewsTriangl1.png)-104px -226px no-repeat, url(../img/reviews/reviewsTriangl2.png)-97px 402px no-repeat, url(../img/reviews/reviewsTriangl3.png) -70px 925px no-repeat;
+  
+}
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+   align-items: flex-start; 
+   padding: 20px 25px 0;
+}
+
+.reviewsList figure {
+  display: inline-block;
+  
+}
+.reviewsList figure  img {
+  box-shadow:3px 3px 3px rgba(0,0,0, 0.5);
+  border-radius: 13px;
+}
+.reviewsList figure:nth-of-type(even) {align-self: flex-end;}
+.reviewsList figure:not(:last-child) {margin-bottom: 15px;}
+
+
+
+
+
+
+
+@media screen and (max-width: 375px) {
+    header.header {
+      padding: 30px 15px 30px 15px;
+    }
+    .logo img:nth-of-type(1){width: 130px;}
+    .logo img:nth-of-type(2){width: 125px;}
+
+    .homePage {
+        background: url(../img/homePage/homeTrianglImg1.png)-55px -290px no-repeat, url(../img/homePage/homeTrianglImg2.png)-151px 411px no-repeat, #EEE6DC;
+    }
+    .botoks, .bix, .keratin{
+      object-fit: cover;
+      width: 100%;
+    }
+
+}
+@media screen and (min-width: 465px) {
+    .homePage {
+        background: url(../img/homePage/homeTrianglImg1.png)-85px -189px repeat-x, url(../img/homePage/homeTrianglImg2.png) center 502px no-repeat, #EEE6DC;
+    }
+
+    
+}
+@media screen and (min-width: 500px) {
+  .reviewsList {
+    align-items: center;
+  }
+  .reviewsList figure:nth-of-type(even) {
+    align-self: center;
+  }
+}
+@media screen and (max-width: 390px) {
+  .gallery {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+
+  }
+  .gallery figure:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 600px)  {
+  .reviewsList {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 698px) {
+    .homePage {
+        background:  url(../img/homePage/homeTrianglImg2.png) center 502px no-repeat, #EEE6DC;
+    }
+}
+@media screen and (min-width: 860px) {
+    .homePage {
+        background:  url(../img/homePage/homeTrianglImg2.png) center 502px no-repeat, #EEE6DC;
+    }
+    .gallery {
+      padding-left: 10px;
+      padding-right: 10px;
+    } 
+}
+@media screen and (min-width: 968px) {
+    .gallery {
+      padding-left: 0;
+      padding-right: 0;
+    } 
+    .beforePage  {
+      height: 100%;
+    }
+    .beforePageContainer > section {
+      flex-direction: row;
+      margin-right: -10px;
+      margin-left: -10px;
+    }
+    .beforePageContainer > section > figure {
+     
+      margin-left: 10px;
+      margin-right: 10px;
+
+      width: calc(33.33% - 20px)
+    }
+    .beforePageContainer > section > figure > img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+}

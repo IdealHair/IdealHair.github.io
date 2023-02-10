@@ -1,0 +1,19 @@
+
+User-agent: Googlebot 
+Disallow: /icon.ico
+Disallow: /webfonts/
+
+Disallow: /css/all.css
+Disallow: /css/brands.css
+Disallow: /css/regular.css
+Disallow: /css/slick.css
+Disallow: /css/slick-theme.css
+Disallow: /css/solid.css
+
+Disallow: /js/all.js
+Disallow: /js/jquery.js
+Disallow: /js/jquery-migrate.js
+Disallow: /js/slick.min.js
+
+
+
