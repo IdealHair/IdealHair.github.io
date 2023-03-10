@@ -452,8 +452,4 @@ a.about_title {
     }
 
 }
-@media screen and (min-width: 550px) {
-  .homePage{
-    height: 100%;    
-  }
-}
+
