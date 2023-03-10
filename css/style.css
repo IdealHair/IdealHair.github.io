@@ -219,7 +219,9 @@ a.about_title {
   color: #000;
   text-align:left !important;
 }
-
+.about_title span i {
+  color:#000;
+}
 .aboutList {
   font-family: 'Cormorant';
   font-style: normal;
