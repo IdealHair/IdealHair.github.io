@@ -196,6 +196,7 @@ a.title span:nth-of-type(2) {
   background: url('../img/about/aboutTrianglImg1.png') -141px -204px no-repeat, url('../img/about/aboutTrianglImg2.png') -110px 425px no-repeat, url('../img/about/aboutBG.png') #fff;
   padding-top: 60px;
   padding-bottom: 100px;
+  min-height:100%;
 }
 .aboutPage figure {
   position: relative;
